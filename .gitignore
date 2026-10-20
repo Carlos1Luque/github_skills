@@ -1,0 +1,26 @@
+# Secrets / local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+appsettings.*.local.json
+
+# IDE / OS
+.vs/
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# .NET build outputs
+**/bin/
+**/obj/
+TestResults/
+artifacts/
+
+# Local agent settings (keep project skills/config versioned)
+.claude/settings.local.json
